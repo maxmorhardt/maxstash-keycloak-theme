@@ -11,11 +11,7 @@ pipeline {
 	}
 
 	environment { 
-        GITHUB_URL = 'https://github.com/maxmorhardt/k8s'
-
-		DOCKER_REGISTRY = 'registry-1.docker.io'
-		DOCKER_REGISTRY_FULL = "oci://${env.DOCKER_REGISTRY}"
-
+        GITHUB_URL = 'https://github.com/maxmorhardt/maxstash-keycloak-theme'
         APP_NAME = "maxstash-keycloak-theme"
 	}
 
