@@ -42,7 +42,7 @@ pipeline {
 					sh 'npm run build'
 					sh 'npm run build:jar'
 
-					sh 'cd out && unzip keywind.jar'
+					sh 'cd out && unzip maxstash-theme.jar'
 
 					sh 'ls -lah'
 					sh 'ls ./out -lah'
